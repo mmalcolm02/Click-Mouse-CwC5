@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public Button restartButton;
     private int score;
     public List<GameObject> targets;
+    public GameObject titleScreen;
 
     public bool isGameActive = false;
 
@@ -32,6 +33,7 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
+        titleScreen.gameObject.SetActive(false);
         isGameActive = true;
         score = 0;
 

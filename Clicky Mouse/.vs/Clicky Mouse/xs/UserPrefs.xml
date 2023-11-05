@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{D1740AF3-9FAD-9C9E-F63A-67C8FB2E81FF}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DifficultyButton.cs">
     <Files>
       <File FileName="Assets/Scripts/TargetObjects.cs" Line="36" Column="1" />
       <File FileName="Assets/Scripts/GameManager.cs" Line="37" Column="1" />
@@ -11,7 +11,7 @@
           <Node name="Clicky Mouse" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="GameManager.cs" selected="True" />
+                <Node name="TargetObjects.cs" selected="True" />
               </Node>
             </Node>
           </Node>
