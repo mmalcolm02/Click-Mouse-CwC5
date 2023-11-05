@@ -6,6 +6,10 @@ public class TargetObjects : MonoBehaviour
 {
     private Rigidbody targetRB;
     private GameManager gameManager;
+
+    public int pointValue;
+    public ParticleSystem explosionParticle;
+
     public float minSpeed = 12;
     public float maxSpeed = 16;
     public float minRotation = -5;
@@ -39,7 +43,8 @@ public class TargetObjects : MonoBehaviour
     private void OnMouseDown()
     {
         Destroy(gameObject);
-        gameManager.UpdateScore(5);
+        Instantiate(explosionParticle, transform.position, explosionParticle.transform.rotation);
+        gameManager.UpdateScore(pointValue);
     }
 
     private void OnTriggerEnter(Collider other)
