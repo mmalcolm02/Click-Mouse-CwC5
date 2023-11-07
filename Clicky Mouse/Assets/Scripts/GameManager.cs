@@ -31,11 +31,12 @@ public class GameManager : MonoBehaviour
         
     }
 
-    public void StartGame()
+    public void StartGame(int difficulty)
     {
         titleScreen.gameObject.SetActive(false);
         isGameActive = true;
         score = 0;
+        spawnRate /= difficulty;
 
         StartCoroutine(SpawnTargets());
         UpdateScore(0);

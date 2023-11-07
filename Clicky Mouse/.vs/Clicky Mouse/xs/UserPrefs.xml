@@ -1,18 +1,16 @@
 ﻿<Properties StartupConfiguration="{D1740AF3-9FAD-9C9E-F63A-67C8FB2E81FF}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DifficultyButton.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameManager.cs">
     <Files>
       <File FileName="Assets/Scripts/TargetObjects.cs" Line="36" Column="1" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="37" Column="1" />
-      <File FileName="Assets/Scripts/DifficultyButton.cs" Line="35" Column="1" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="30" Column="6" />
+      <File FileName="Assets/Scripts/DifficultyButton.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Clicky Mouse" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="TargetObjects.cs" selected="True" />
-              </Node>
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -21,7 +19,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8d61ca22-7afc-453d-bf77-d52f1c47e88c" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ba8f92a6-44c4-40a9-8b57-ec29caf4cb05" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
